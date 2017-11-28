@@ -15,6 +15,12 @@ import com.squareup.picasso.Picasso
 
 /**
  * Created by 苏康泰 on 2017/11/27.
+ *
+ *
+ *
+ *
+ * 56465465465465456
+ *
  */
 class VideoAdapter( var context:Context,var video: VideoBean.VideoBean): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     val TYPE_A:Int=0
@@ -25,6 +31,7 @@ class VideoAdapter( var context:Context,var video: VideoBean.VideoBean): Recycle
     }
 
     override fun getItemViewType(position: Int): Int {
+        video.issueList[0]
        // video.issueList[0]
         if (position==0){
             return TYPE_A
